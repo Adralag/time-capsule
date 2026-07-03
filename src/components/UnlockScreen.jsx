@@ -29,7 +29,7 @@ export default function UnlockScreen({ onUnlock }) {
     >
       {/* Blurred backdrop photo */}
       <div
-        className="absolute inset-0 scale-110 bg-cover bg-center opacity-40 blur-2xl"
+        className="absolute inset-0 scale-110 bg-cover bg-center opacity-40 blur-xl"
         style={{ backgroundImage: `url(${unlock.heroImage})` }}
         aria-hidden="true"
       />
@@ -48,7 +48,7 @@ export default function UnlockScreen({ onUnlock }) {
         transition={{ duration: 0.9, ease: "easeOut" }}
         className="relative z-10 w-full max-w-md"
       >
-        <div className="rounded-2xl border border-brass-400/30 bg-capsule-900/70 p-8 shadow-[0_0_60px_-15px_rgba(201,161,92,0.25)] backdrop-blur-md sm:p-10">
+        <div className="rounded-2xl border border-brass-400/30 bg-capsule-900/70 p-8 shadow-[0_0_60px_-15px_rgba(201,161,92,0.25)] backdrop-blur-sm sm:p-10">
           <p className="text-center font-sans text-[11px] uppercase tracking-[0.28em] text-brass-300/80">
             {unlock.eyebrow}
           </p>

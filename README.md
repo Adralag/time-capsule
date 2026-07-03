@@ -80,7 +80,6 @@ origin <url>` and `git push -u origin main`.) Keep the repo **private**
 ## What's inside
 
 | Section | File |
-|---|---|
 | Unlock screen / hero | `src/components/UnlockScreen.jsx` |
 | Vertical timeline | `src/components/Timeline.jsx` |
 | Photo gallery + lightbox | `src/components/Gallery.jsx` |
