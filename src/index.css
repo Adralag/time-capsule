@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-capsule-900 text-parchment-100 font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-brass-400 text-capsule-950;
+  }
+}
+
+@layer components {
+  /* Subtle paper/film grain overlay used on dark sections */
+  .grain-overlay {
+    @apply pointer-events-none absolute inset-0 bg-grain mix-blend-overlay;
+  }
+
+  /* Postmark-style circular date stamp used on the timeline */
+  .postmark {
+    @apply relative flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-brass-400/70 bg-capsule-900 text-brass-300;
+  }
+
+  /* Brass hairline divider */
+  .brass-rule {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-brass-400/60 to-transparent;
+  }
+}
