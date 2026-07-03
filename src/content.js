@@ -66,6 +66,25 @@ export const timeline = [
 export const gallery = [
   { image: "/images/gallery-01.jpg", caption: "I wasn't in the mood for a photo, because you slyed me." },
   { image: "/images/gallery-02.jpg", caption: "This is us, just being ourselves. You forced me to smile btw." },
+  { image: "/images/gallery-03.jpg", caption: "Pretty Eyes." },
+  { image: "/images/gallery-04.jpg", caption: "Your goofy ass." },
+  { image: "/images/gallery-05.jpg", caption: "Caught in the act." },
+  { image: "/images/gallery-06.jpg", caption: "Another spontaneous moment." },
+  { image: "/images/gallery-07.jpg", caption: "Our little secret." },
+  { image: "/images/gallery-08.jpg", caption: "A moment we'll never forget." },
+  { image: "/images/gallery-09.jpg", caption: "Just you" },
+  { image: "/images/gallery-10.jpg", caption: "Your smile is my favorite sight." },
+  { image: "/images/gallery-11.jpg", caption: "Four Eyes" },
+  { image: "/images/gallery-12.jpg", caption: "You like to bend your head but I make you bend your back 🌚" },
+  { image: "/images/gallery-13.jpg", caption: "Your cute little nose." },
+  { image: "/images/gallery-14.jpg", caption: "I don't judge as long as you use the tongue well." },
+  { image: "/images/gallery-15.jpg", caption: "Cute." },
+  { image: "/images/gallery-16.jpg", caption: "You looking all cute." },
+  { image: "/images/gallery-17.jpg", caption: "Another spontaneous moment." },
+  { image: "/images/gallery-18.jpg", caption: "Our little secret." },
+  { image: "/images/gallery-19.jpg", caption: "Forehead" },
+  { image: "/images/gallery-20.jpg", caption: "I love this" },
+  { image: "/images/gallery-00.jpg", caption: "Sunkissed FR" },
 ];
 
 // ---- 4. The Vintage Letter -----------------------------------
